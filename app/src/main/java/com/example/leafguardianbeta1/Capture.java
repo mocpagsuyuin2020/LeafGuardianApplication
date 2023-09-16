@@ -11,7 +11,7 @@ import android.widget.ImageButton;
 public class Capture extends AppCompatActivity {
 
     ImageButton imagebtnBack;
-    Button btncapture;
+    Button btncapture,test;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
