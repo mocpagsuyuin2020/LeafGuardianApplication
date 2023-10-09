@@ -16,7 +16,7 @@ public class Home extends AppCompatActivity {
         setContentView(R.layout.activity_home);
 
         imagebtnBack3 = findViewById(R.id.imagebtnBack3);
-        imagebtnTreatment = findViewById(R.id.imagebtnTreatment);
+        //imagebtnTreatment = findViewById(R.id.imagebtnTreatment);//
 
         imagebtnBack3.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -26,13 +26,13 @@ public class Home extends AppCompatActivity {
             }
         });
 
-        imagebtnTreatment.setOnClickListener(new View.OnClickListener() {
+        /*imagebtnTreatment.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Home.this, Treatment.class);
                 startActivity(intent);
             }
-        });
+        });*/
 
     }
 }

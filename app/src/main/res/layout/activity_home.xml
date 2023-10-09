@@ -7,6 +7,18 @@
     android:background="@drawable/image_home_background"
     tools:context=".Home">
 
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="290dp"
+        android:layout_height="155dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.815"
+        app:srcCompat="@drawable/background_style" />
+
     <ImageButton
         android:id="@+id/imagebtnBack3"
         android:layout_width="wrap_content"
@@ -37,6 +49,7 @@
         android:layout_height="122dp"
         android:background="@drawable/button_style_1"
         android:backgroundTint="#F1E6D1"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.013"
@@ -51,6 +64,7 @@
         android:layout_height="122dp"
         android:background="@drawable/button_style_1"
         android:backgroundTint="#F1E6D1"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -64,6 +78,7 @@
         android:layout_height="122dp"
         android:background="@drawable/button_style_1"
         android:backgroundTint="#F1E6D1"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.975"
@@ -98,4 +113,33 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.129" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aleo"
+        android:text="Prediction"
+        android:textColor="@color/white"
+        android:textSize="23.2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.692" />
+
+    <TextView
+        android:id="@+id/txtresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aleo"
+        android:text="Result Here"
+        android:textColor="@color/white"
+        android:textSize="23.2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.766" />
 </androidx.constraintlayout.widget.ConstraintLayout>
