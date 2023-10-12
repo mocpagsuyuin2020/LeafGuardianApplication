@@ -21,7 +21,7 @@ public class StartScreen extends AppCompatActivity {
         btnstart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(StartScreen.this, CaptureOrUpload.class);
+                Intent intent = new Intent(StartScreen.this, Home.class);
                 startActivity(intent);
             }
         });
